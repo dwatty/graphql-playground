@@ -1,0 +1,29 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "GraphQL playground for scraping kness, bruising elbows, etc.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js",
+    "watch": "nodemon node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwatty/graphql-playground.git"
+  },
+  "author": "dwatty",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/dwatty/graphql-playground/issues"
+  },
+  "homepage": "https://github.com/dwatty/graphql-playground#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
